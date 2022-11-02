@@ -1,0 +1,199 @@
+<div class="bg-white border-t border-gray-300 p-3 grid sm:grid-cols-2 grid-cols-1 gap-4 m-2 rounded shadow shadow-gray-700/50">
+    <div class="text-green-700 py-1.5">
+        <span class="font-medium">Delovni nalog: </span>
+        <span>21007153</span>
+        <span class="text-thin" > ( FLIS/F T15 (8585)24 600/223 )</span>
+    </div>
+    <div class="text-right ">
+        <button type="button" (click)="showRole()" style="float:right;"  class="sm:block none inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+            Ustvari novo balo
+        </button>
+    </div>
+</div>
+<app-create-role class="createRole hidden"></app-create-role>
+<div class="grid sm:grid-cols-3 grid-cols-1 gap-4 p-2">
+    <div class="bg-white rounded shadow shadow-gray-600/50 py-2 px-4">
+        <div class="grid grid-cols-2 gap-4 py-2">
+            <div class="text-gray-500 text-thin">
+                PAN - 600
+            </div>
+            <div class="text-green-500 font-bold text-right">
+                <span>
+                    858/1
+                </span>
+                <img class="inline-block h-8 w-8 rounded-md ml-3" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </div>
+        </div>
+        <div class="-mx-4 overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:-mx-6 md:mx-0 md:rounded-lg">
+            <table class="min-w-full divide-y divide-gray-300">
+                <tbody class="divide-y divide-gray-200 bg-white px-2">
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Dolžina
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                          310 m
+                        </td>
+                    </tr>
+                    <tr>
+                      <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                        Debelina
+                      </td>
+                      <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                        POV: 3,2
+                      </td>
+                    </tr>
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Gramatura
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                          POV: 605,9
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Trdnosti: 
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none">
+                          V: 1500
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none sm:pl-6">
+                          P: 1800
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none">
+                          SL: 2.5
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="grid grid-cols-2 gap-4 my-3">
+            <button type="button" class="text-center rounded-md border border-transparent bg-indigo-100 px-3 py-2 text-sm font-medium leading-4 text-indigo-700 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Poglej</button>
+            <button type="button" class="text-center rounded-md border border-transparent bg-green-100 px-3 py-2 text-sm font-medium leading-4 text-green-700 hover:bg-green-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Dodaj meritve </button>
+        </div>
+    </div>
+    <div class="bg-white rounded shadow shadow-gray-600/50 py-2 px-4">
+        <div class="grid grid-cols-2 gap-4 py-2">
+            <div class="text-gray-500 text-thin">
+                PAN - 600
+            </div>
+            <div class="text-orange-500 font-bold text-right">
+                <span>
+                    859/2
+                </span>
+                <img class="inline-block h-8 w-8 rounded-md ml-3" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </div>
+        </div>
+        <div class="-mx-4 overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:-mx-6 md:mx-0 md:rounded-lg">
+            <table class="min-w-full divide-y divide-gray-300">
+                <tbody class="divide-y divide-gray-200 bg-white px-2">
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Dolžina
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                          320 m
+                        </td>
+                    </tr>
+                    <tr>
+                      <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                        Debelina
+                      </td>
+                      <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                        POV: 3,1
+                      </td>
+                    </tr>
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Gramatura
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                          POV: 590
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Trdnosti: 
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none">
+                          V: 1250
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none sm:pl-6">
+                          P: 1450
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none">
+                          SL: 1.8
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="grid grid-cols-2 gap-4 my-3">
+            <button type="button" class="text-center rounded-md border border-transparent bg-indigo-100 px-3 py-2 text-sm font-medium leading-4 text-indigo-700 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Poglej</button>
+            <button type="button" class="text-center rounded-md border border-transparent bg-green-100 px-3 py-2 text-sm font-medium leading-4 text-green-700 hover:bg-green-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Dodaj meritve </button>
+        </div>
+    </div>
+    <div class="bg-white rounded shadow shadow-gray-600/50 py-2 px-4">
+        <div class="grid grid-cols-2 gap-4 py-2">
+            <div class="text-gray-500 text-thin">
+                PAN - 600
+            </div>
+            <div class="text-red-500 font-bold text-right">
+                <span>
+                    860/3
+                </span>
+                <img class="inline-block h-8 w-8 rounded-md ml-3" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                <img class="inline-block h-8 w-8 rounded-md ml-3" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+            </div>
+        </div>
+        <div class="-mx-4 overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:-mx-6 md:mx-0 md:rounded-lg">
+            <table class="min-w-full divide-y divide-gray-300">
+                <tbody class="divide-y divide-gray-200 bg-white px-2">
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Dolžina
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                          330 m
+                        </td>
+                    </tr>
+                    <tr>
+                      <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                        Debelina
+                      </td>
+                      <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                        POV: 3,3
+                      </td>
+                    </tr>
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Gramatura
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none" colspan="2">
+                          POV: 630
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="w-full max-w-0 py-4 px-2 text-sm font-medium text-gray-900 sm:w-auto sm:max-w-none">
+                          Trdnosti: 
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none">
+                          V: 1000
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none sm:pl-6">
+                          P: 950
+                        </td>
+                        <td class="w-full max-w-0 py-4 text-sm font-thin text-gray-900 sm:w-auto sm:max-w-none">
+                          SL: 1.7
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="grid grid-cols-2 gap-4 my-3">
+            <button type="button" class="text-center rounded-md border border-transparent bg-indigo-100 px-3 py-2 text-sm font-medium leading-4 text-indigo-700 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Poglej</button>
+            <button type="button" class="text-center rounded-md border border-transparent bg-green-100 px-3 py-2 text-sm font-medium leading-4 text-green-700 hover:bg-green-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Dodaj meritve </button>
+        </div>
+    </div>
+</div>
