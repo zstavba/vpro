@@ -5,7 +5,7 @@
       <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
         <div class="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-7xl sm:p-6">
             <mat-stepper linear #stepper>
-                <mat-step [editable]="isEditable">
+                <mat-step [editable]="isEditable" [formGroup]="partnerBasicInformation">
                     <ng-template matStepLabel>Osnovne informacije</ng-template>
                     <div class="grid grid-cols-2 gap-4">
                         <div>
@@ -41,6 +41,33 @@
                             </select>
                           </div>
                     </div>
+                    <div class="grid grid-cols-4 gap-4 my-2">
+                        <div>
+                            <label for="partner_zip_code" class="block text-sm font-medium text-gray-700">Pošta</label>
+                            <div class="mt-1">
+                              <input type="text" name="partner_zip_code" id="partner_zip_code" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="2313">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="partner_location" class="block text-sm font-medium text-gray-700">Kraj</label>
+                            <div class="mt-1">
+                              <input type="text" name="partner_location" id="partner_location" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Fram">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="partner_country" class="block text-sm font-medium text-gray-700">Država</label>
+                            <div class="mt-1">
+                              <input type="text" name="partner_country" id="partner_country" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Slovenija">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="partner_language" class="block text-sm font-medium text-gray-700">Jezik</label>
+                            <div class="mt-1">
+                              <input type="text" name="partner_language" id="partner_language" class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Slovenščina">
+                            </div>
+                        </div>
+                    </div>
+
                     <button type="button" class="block w-full my-3 rounded-md border border-transparent bg-green-100 px-4 py-2 text-sm font-medium text-green-700 hover:bg-green-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
                         Naprej
                     </button>
